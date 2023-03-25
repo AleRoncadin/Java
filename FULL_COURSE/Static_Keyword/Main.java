@@ -14,6 +14,11 @@ public class Main {
         // se il metodo e la variabile che conta gli amici non sono statici
         // non posso farlo
         Friend.displayFriends();
+        
+        /** avrei dovuto mettere
+        * friend1.displayFriends();
+        * se non fosse stato statico
+        */
     }
 
 }
