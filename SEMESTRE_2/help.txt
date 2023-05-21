@@ -1,3 +1,5 @@
 Se non riesce a compilare:
 - aggiornare l' estensione Language Support for Java(TM) by Red Hat
 - F1 -> Java: clean the Java language server workspace
+
+Devi usare Run Java, se fai Run Code da errore
