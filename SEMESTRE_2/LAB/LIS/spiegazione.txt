@@ -1,0 +1,5 @@
+Vengono proposti due problemi che prevedono di usare la tecnica di memoization.
+Il primo problema richiede di implementare la memoization in situazioni semplificate,
+in cui tutti gli elementi dell'array siano minori o uguali a n.
+Il secondo problema richiede di gestire casi più generali in cui gli elementi
+dell'array possano assumere qualunque valore intero.
