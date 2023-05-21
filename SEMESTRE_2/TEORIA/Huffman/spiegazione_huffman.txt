@@ -1,0 +1,6 @@
+L'idea di base è quella di assegnare una codifica più corta ai caratteri che compaiono
+più volte e una più lunga ai caratteri che compaiono di più.
+
+L'algoritmo si basa sull'albero di Huffman, un albero binario.
+- I caratteri sono contenuti nelle foglie
+- La lunghezza di ogni carattere
