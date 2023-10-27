@@ -1,0 +1,4 @@
+migliorare questione CittaIntermedie
+stampare getDesc del viaggio
+ottenere numero corretto del viaggio
+modifica del viaggio non va bene

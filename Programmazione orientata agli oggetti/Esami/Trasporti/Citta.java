@@ -1,8 +1,8 @@
 package Trasporti;
 
-public class Citta {
+public interface Citta {
 
-    public enum partenzeDestinazioni {
+    public static enum partenzeDestinazioni {
         Udine,
         Pordenone,
         Gorizia,
@@ -16,5 +16,19 @@ public class Citta {
         Aosta,
         Brescia,
         Torino
+    }
+
+    /**
+     * metodo per verificare se un certo valore è presente
+     * nell'enum contenente i nomi delle citta
+     * @param t stringa data in input
+     */
+    public static boolean isCittaInEnum(String t){
+        for(partenzeDestinazioni val : partenzeDestinazioni.values()){
+            if(val.name().equals(t)){
+                return true;
+            }
+        }
+        return false;
     }
 }

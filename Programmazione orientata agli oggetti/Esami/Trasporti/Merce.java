@@ -22,8 +22,7 @@ public class Merce {
     }
 
     public void setQuantita(double q){
-        if(q > 0)
-            this.quantita = q;
+        this.quantita = q;
     }
 
     public String getTipo(){
@@ -31,11 +30,14 @@ public class Merce {
     }
 
     public void setTipo(String t){
-        if(isElementInEnum(t))
-            this.tipo = tipoMerce.valueOf(t);
+        this.tipo = tipoMerce.valueOf(t);
     }
 
-    private static boolean isElementInEnum(String t){
+    /**
+     * verifica se un certo valore è presente nell'enum contenente tipi di merci
+     * @param t stringa data in input
+     */
+    public static boolean isTipoInEnum(String t){
         for(tipoMerce val : tipoMerce.values()){
             if(val.name().equals(t)){
                 return true;
