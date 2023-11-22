@@ -1,4 +1,4 @@
-migliorare questione CittaIntermedie
-stampare getDesc del viaggio
-ottenere numero corretto del viaggio
-modifica del viaggio non va bene
+migliorare questione CittaIntermedie, da errore alla stampa delle città intermedie
+non stampa correttamente getDesc (descrizione) del viaggio
+il numero del viaggio (ID del viaggio) è sbagliato
+la parte di modifica del viaggio non va bene
