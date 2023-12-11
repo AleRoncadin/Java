@@ -1,0 +1,33 @@
+Studente
+	dati
+	lista corsi iscritti
+	anno di corso
+	CFU ottenuti
+	in-corso/fuori-corso
+	esami sostenuti con data ed esito 	(richiamo alla classe EsameSostenuto)
+
+EsameSostenuto
+	nome
+	data
+	voto/giudizio
+
+Appello
+	persona/remoto
+	data
+	ora
+	durata
+	aula
+	tipo (finale, parziale, orale)
+
+AppelloRemoto sottoclasse di Appello
+
+Corso
+	docente
+	CFU
+	pre-requisiti
+	anno
+
+Main
+    iscrivi(Studente, Appello)
+    valuta(Studente, Appello, voto/giudizio)
+    calcolaVotoMedio(Studente)
